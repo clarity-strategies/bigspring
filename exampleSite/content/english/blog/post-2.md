@@ -1,75 +1,70 @@
 ---
 title: Pump-up the team morale and celebrate the excellence of the work
 date: 2022-12-13T05:07:21.000Z
-image: https://deploy-preview-2--clarity-hugo.netlify.app/images/blog/post-1.jpg
+image: https://res.cloudinary.com/clarity-strategies/image/upload/v1670950913/post-1.jpg
 description: This is meta description
 type: regular
 draft: false
 ---
-
-
 #### Heading example
 
 Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
 
-# Heading 1 
-<br>
-
-## Heading 2 
+# Heading 1
 
 <br>
 
-### Heading 3 
+## Heading 2
 
 <br>
 
-#### Heading 4 
+### Heading 3
 
 <br>
 
-##### Heading 5 
+#### Heading 4
+
+<br>
+
+##### Heading 5
 
 <br>
 
 ###### Heading 6
 
-
 <hr>
 
 ##### Emphasis
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Emphasis, aka italics, with *asterisks* or *underscores*.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
-Combined emphasis with **asterisks and _underscores_**.
+Combined emphasis with **asterisks and *underscores***.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
 <hr>
 
 ##### Link
+
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[I'm a reference-style link](https://www.themefisher.com)
 
 [I'm a relative reference to a repository file](../blob/master/LICENSE)
 
-[You can use numbers for reference-style link definitions][1]
+[You can use numbers for reference-style link definitions](https://gethugothemes.com)
 
-Or leave it empty and use the [link text itself].
+Or leave it empty and use the [link text itself](https://www.getjekyllthemes.com).
 
 URLs and URLs in angle brackets will automatically get turned into links. 
 http://www.example.com or <http://www.example.com> and sometimes 
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.themefisher.com
-[1]: https://gethugothemes.com
-[link text itself]: https://www.getjekyllthemes.com
 
 <hr>
 
@@ -103,16 +98,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 Inline `code` has `back-ticks around` it.
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
-```python
-s = "Python syntax highlighting"
-print s
-```
-
 <hr>
 
 ##### Blockquote
@@ -130,9 +115,8 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
   <dd>Is something people use sometimes.</dd>
 
   <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dd>Does \*not\* work \*\*very\*\* well. Use HTML <em>tags</em>.</dd>
 </dl>
-
 
 <hr>
 
@@ -141,25 +125,19 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 Colons can be used to align columns.
 
 | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| ------------- | ------------- | ----- |
 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 2 is      | centered      | $12   |
+| zebra stripes | are neat      | $1    |
 
 There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
 raw Markdown line up prettily. You can also use inline Markdown.
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-<hr>
-
-##### Image
-
-![image](../../images/blog/post-6.jpg)
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| *Still*  | `renders` | **nicely** |
+| 1        | 2         | 3          |
 
 <hr>
 
