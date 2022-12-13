@@ -1,13 +1,9 @@
 ---
-title: "Pump-up the team morale and celebrate the excellence"
-date: 2020-04-18T10:07:21+06:00
-# post image
-image: "images/blog/post-2.jpg"
-# post type (regular/featured)
-type: "regular"
-# meta description
-description: "This is meta description"
-# post draft
+title: Pump-up the team morale and celebrate the excellence of the work
+date: 2022-12-13T05:07:21.000Z
+image: https://deploy-preview-2--clarity-hugo.netlify.app/images/blog/post-1.jpg
+description: This is meta description
+type: regular
 draft: false
 ---
 
