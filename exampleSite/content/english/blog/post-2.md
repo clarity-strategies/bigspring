@@ -1,7 +1,7 @@
 ---
 title: Pump-up the team morale and celebrate the excellence of the work
-date: 2020-04-18T10:07:21+06:00
-image: https://res.cloudinary.com/clarity-strategies/image/upload/v1664803713/Nick_2BSquare.jpg
+date: 2022-12-13T05:07:21.000Z
+image: ""
 description: This is meta description
 type: regular
 draft: false
