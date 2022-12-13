@@ -1,7 +1,7 @@
 ---
 title: Pump-up the team morale and celebrate the excellence of the work
 date: 2022-12-13T05:07:21.000Z
-image: ""
+image: https://deploy-preview-2--clarity-hugo.netlify.app/images/blog/post-1.jpg
 description: This is meta description
 type: regular
 draft: false
