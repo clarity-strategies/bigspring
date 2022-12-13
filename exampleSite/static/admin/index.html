@@ -26,7 +26,7 @@
       return h('div', {"className":"container"},
       h('div',{"className":"row"},
        h('div',{"className":"col-lg-8 mx-auto"},
-        h('h1', {style: {mystyle}}, entry.getIn(['data', 'title'])),
+        h('h1', {}, entry.getIn(['data', 'title'])),
         h('img', {src: bg.toString(),"className":"img-fluid w-100 rounded mb-4"}),
         h('div', {"className": "text"}, this.props.widgetFor('body'))
       )));
