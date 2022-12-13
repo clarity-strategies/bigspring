@@ -1,0 +1,62 @@
+backend:
+  name: github
+  repo: clarity-strategies/bigspring
+  branch: master
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: clarity-strategies
+    api_key: 382948599382164
+    username: cloudinary@clarity-strategies.com
+    multiple: false
+publish_mode: editorial_workflow
+logo_url: https://res.cloudinary.com/clarity-strategies/image/upload/v1665657377/clarity-logo-white.svg
+#media_folder: site/static/images
+#public_folder: /images 
+collections:
+  - name: post
+    label: Blog
+    folder: /exampleSite/content/english/blog
+    create: true
+    extension: md
+    identifier_field: title
+    slug: '{{slug}}'
+    fields:
+      - label: Title
+        name: title
+        required: true
+        hint: The title of the post
+        widget: string
+      - label: Date
+        name: date
+        required: true
+        hint: The publish date of the post
+        widget: date
+      - name: image
+        label: Featured Image
+        required: false
+        hint: The image shown in the blog post and blog feed
+        widget: image
+      - name: description
+        label: SEO Description
+        required: false
+        hint: The excerpt of the page displayed in the blog feed and meta data
+        widget: string
+      - name: layout
+        label: Layout
+        required: true
+        default: post
+        widget: hidden
+      - name: type
+        label: Type
+        required: true
+        default: post
+        widget: hidden        
+      - name: body
+        label: Content
+        required: false
+        hint: Page content
+        widget: markdown
+#    filter:
+#      field: layout
+#      value: post
