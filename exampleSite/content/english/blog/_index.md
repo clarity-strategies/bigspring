@@ -1,7 +1,8 @@
 ---
-title: "Latest News"
+title: Latest News
 subtitle: ""
-# meta description
-description: "This is meta description"
+description: This is meta description
 draft: false
+date: 2022-12-13T12:17:21.186Z
 ---
+\#﻿# Batty Frango
