@@ -17,11 +17,13 @@
       var entry = this.props.entry;
       var image = entry.getIn(['data', 'image']);
       var bg = this.props.getAsset(image);
-      return h('div', {"className":"container text-center"},
+      return h('div', {"className":"container"},
+      h('div',{"className":"row"},
+       h('div',{"className":"col-lg-8 mx-auto"},
         h('h1', {}, entry.getIn(['data', 'title'])),
         h('img', {src: bg.toString()}),
         h('div', {"className": "text"}, this.props.widgetFor('body'))
-      );
+      )));
     }
   });
 
