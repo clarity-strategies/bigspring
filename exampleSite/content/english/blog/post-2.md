@@ -10,7 +10,7 @@ draft: false
 
 Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
 
-# Heading 1
+# Heading 1 Good and Gone
 
 <br>
 
@@ -115,7 +115,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
   <dd>Is something people use sometimes.</dd>
 
   <dt>Markdown in HTML</dt>
-  <dd>Does \*not\* work \*\*very\*\* well. Use HTML <em>tags</em>.</dd>
+  <dd>Does \\*not\\* work \\*\\*very\\*\\* well. Use HTML <em>tags</em>.</dd>
 </dl>
 
 <hr>
