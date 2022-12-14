@@ -10,17 +10,7 @@
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script>
     
-    CMS.registerPreviewStyle("cms.css");
-
-    const Hero = createClass({
-    render: function() {
-      return h('div', {"className":"container"},
-      h('div',{"className":"row"},
-       h('div',{"className":"col-lg-8 mx-auto"},
-        h('h1', {}, 'H E R O')
-      )));
-    }
-  });  
+  CMS.registerPreviewStyle("cms.css");
 
   var PostPreview = createClass({
     render: function() {
@@ -29,7 +19,6 @@
       var bg = this.props.getAsset(image);
 
       return h('div', {"className":"container"},
-      h('div',{}, {Hero} ),
       h('div',{"className":"row"},
        h('div',{"className":"col-lg-8 mx-auto"},
         h('h1', {}, entry.getIn(['data', 'title'])),
