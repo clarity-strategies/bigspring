@@ -29,7 +29,7 @@
       var bg = this.props.getAsset(image);
 
       return h('div', {"className":"container"},
-      h('Hero', {}),
+      h('div',{}, {Hero} ),
       h('div',{"className":"row"},
        h('div',{"className":"col-lg-8 mx-auto"},
         h('h1', {}, entry.getIn(['data', 'title'])),
