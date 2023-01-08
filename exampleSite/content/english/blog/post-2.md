@@ -1,5 +1,5 @@
 ---
-title: Pump-up the team morale and celebrate the excellence of the work
+title: Pump-up the team morale and celebrate the excellence of the work of the peeps
 date: 2022-12-13T05:07:21.000Z
 image: https://res.cloudinary.com/clarity-strategies/image/upload/v1670950913/post-1.jpg
 description: This is meta description
